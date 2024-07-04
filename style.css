@@ -1,0 +1,128 @@
+
+body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kanban-box{
+    margin-top: 60px;
+}
+
+.todo{
+    width: 100%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    border-radius: 13px;
+
+}
+.progress-kanban{
+    width: 100%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    border-radius: 13px;
+
+}
+.done{
+    width: 100%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    border-radius: 13px;
+
+}
+.cssbuttons-io-button{
+ background-color: #fff;
+ border: none;
+ border-radius:7px;
+ }
+ .delete-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-button:hover {
+    color: red;
+}
+
+.sortable-ghost {
+    opacity: 0.4;
+}
+
+.sortable-chosen {
+    background-color: #f0f0f0;
+}
+.text{
+    color: #ffff !important;
+    margin-top: 25px ;
+}
+.text li{
+    padding-top: 8px !important;
+    background-color: blue;
+}
+
+.input{
+    display: flex;
+     gap: 25px;
+}
+.form-control{
+    width: 75% !important;
+    margin-left: 10px;
+}
+.todo h4{
+    text-align: center;
+    color: #fff;
+    background-color: blue;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+
+    padding: 10px;
+}
+.progress-kanban h4{
+    text-align: center;
+    color: #fff;
+    background-color: darkred;
+    padding: 10px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+.done h4{
+    text-align: center;
+    color: #fff;
+    background-color: green;
+    padding: 10px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+/* styles.css */
+.list {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.item, .task-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.progress-item {
+    background-color: darkred !important;
+}
+
+.done-item {
+    background-color: green !important;
+}
+
